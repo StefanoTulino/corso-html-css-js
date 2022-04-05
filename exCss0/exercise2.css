@@ -1,0 +1,74 @@
+
+body {
+    background-color: gray;
+}
+
+h2 {
+    align-items: center;
+    color:brown;
+    text-align: center;
+}
+
+#first-div {
+    display: flex;
+    margin-top: 80px;
+    justify-content: center;
+}
+
+.cella {
+    display: inline-table;
+    width: 30%;
+    height: 20%;
+    background-color: white;
+    border-width: 3px;
+    border-color: black;
+    border-style: solid;
+    text-align: center;
+}
+
+.titleTable{
+    font-size: 24px;
+    /* serve per il grassetto font-weight */
+    font-weight: 900;
+}
+
+p {
+    margin-top: 50px;
+    text-align: center;
+    font-size: large;
+}
+
+
+#footer1 {
+        /* quelli importanti sono bottom,width,display e position */
+
+    position: fixed;
+    align-content: center;
+    justify-content: center;
+    bottom:0;
+    width: 100%;
+    display: flex;
+    background-color: black;
+}
+
+
+
+a {
+    color:white;
+}
+
+.spazio {
+    /* non va bene , vedere poi da solo */
+    height: 1200;
+}
+
+.btn {
+    position: absolute;
+    background-color: red;
+    bottom: 0;
+    border-radius: 30%;
+    right: 0;
+}
+
+
+

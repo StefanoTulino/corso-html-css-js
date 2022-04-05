@@ -1,0 +1,22 @@
+
+p {
+    color: white;
+    background: red ;
+}
+
+.first-div {
+    background:magenta;
+}
+
+/* PROPRIETà che valgono per tutti i sottooggetti al suo interno 
+.second-div {
+    background:red;
+    color: white;
+};
+*/
+
+.second-div h4 {
+    background:red;
+    color: white;
+};
+
