@@ -7,12 +7,27 @@
     <title>Document</title>
 </head>
 <body>
-   
+
     <form name="form1" action="/script/to/server" method="get" onsubmit="alert('ciao');">
         <p>
-            name: <input type="text" id="name" placeholder="name"/> <br>
+            seleziona l'azienda: <select id="s">
+                <option>prima opzione</option>
+                <option>seconda opzione</option>
+                <option>terza opzione</option>
+            </select>
+
+            <!-- in questo modo, con readonly, non permette all'utente di scrivere al suo interno-->
+            name: <input type="text" id="name" placeholder="name" readonly/> <br>
+            
             homePage: <input type="text" id="home" value="https://www.google.com/" /> <br>
             password: <input type="text" id="pswd" placeholder="password"/> <br>
+            select your choise: <input type="checkbox" name="scelte multiple" />
+            select your choise: <input type="checkbox" name="scelte multiple" />
+            select your choise: <input type="checkbox" name="scelte multiple" />
+            select your choise: <input type="checkbox" name="scelte multiple" /> <br>
+
+            
+            Male or female: <input type="radio" name="primo" />
         </p>
         <p>
             <input type="submit" value="ok"/>
