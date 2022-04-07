@@ -1,0 +1,38 @@
+* {
+    background-color: cornflowerblue;
+}
+
+#first-div {
+    display: flex;
+    margin-top: 180px;
+    justify-content: center;
+
+}
+
+.quadrato {
+    display: inline-table;
+    width: 200px;
+    height: 200px;
+    background-color: white;
+    border-width: 8px;
+    border-color: black;
+    border-style: solid;
+    margin: 5px;
+    text-align: center;
+}
+
+p {
+    margin-top: 80px;
+    text-align: center;
+    font-size: large;
+    
+}
+
+#div1 {
+    margin-top: 30px;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+
+}

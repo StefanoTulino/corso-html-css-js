@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <script type="text/javascript" src="exercise6.js"></script>
+    <link rel="stylesheet" href="../exercise-Css/exercise6.css">
+</head>
+
+<body>
+
+    <section id="sectionForm">
+        <h4>Form: </h4>
+        <form id="form" action="exercise6part2.html" method="post">
+            <p>
+                Cognome: <input type="text" id="Cognome" placeholder="Cognome" maxlength="40" />
+                Nome: <input type="text" id="Nome" placeholder="Nome" maxlength="30" />
+                Matricola: <input type="number" id="Matricola" placeholder="Matricola" 
+                    minlength="0" size="7" maxlength="1234567" />
+            </p>
+           
+            <p>
+                Menu di Residenza:  <select id="Residenza">
+                    <option>Sud</option>
+                    <option>Centro</option>
+                    <option>Nord</option>
+                </select>
+            Email: <input type="email" id="Email" placeholder="Email" minlength="0" maxlength="30" /> 
+            <br><br>
+            Telefono: <input type="tel" id="Telefono" placeholder="Telefono" maxlength="16" />
+            Status: <input type="text" id="status" maxlength="30" list="statusList"/> 
+                <datalist id="statusList">
+                    <option>In corso</option>
+                    <option>fuori corso</option>
+                    <option>carriera in pausa</option>
+                    <option>laureato</option>    
+                </datalist>     
+                </p>
+                <br><br>
+                Richieste particolari: <textarea id="area" rows="12" cols="60" 
+                    placeholder="scrivi qui le tue richieste" ></textarea>
+            </p>
+                
+              <p>
+                <button name="btnOk">Ok </button>
+                <input type="reset" value="Reset"/>   
+              </p>
+            
+            
+        </form>
+    </section>
+
+</body>
+</html>
